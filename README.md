@@ -1,7 +1,7 @@
 ## About
 This project is built with the [Vite](https://vitejs.dev/) and [Typescript](https://www.typescriptlang.org/)
 
-Simple Voting system demo with loading bars, precentages and total number of votes. Number of votes are unlimited to single user just to demonstrate the functionality. 
+A simple voting system demo that includes loading bars, percentages, and the total number of votes. The number of votes is unlimited for a single user, just to demonstrate the functionality.
 
 ## Site URL
 https://vsimic-voting.netlify.app/
