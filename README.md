@@ -1,5 +1,5 @@
 ## About
-This game is built with the [Vite](https://vitejs.dev/) and [Typescript](https://www.typescriptlang.org/)
+This project is built with the [Vite](https://vitejs.dev/) and [Typescript](https://www.typescriptlang.org/)
 
 Simple Voting system demo with loading bars, precentages and total number of votes. Number of votes are unlimited to single user just to demonstrate the functionality. 
 
