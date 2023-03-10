@@ -1,0 +1,73 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family:monospace, sans-serif;
+}
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
+    transition: border-color 0.25s;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  button:hover {
+    border-color: #646cff;
+  }
+
+
+.people {
+    min-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+.personFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    span {
+        font-size: 20px;
+    }
+}
+
+.votingBar {
+    background-color: #bdbdbd;
+    position: relative;
+    margin-bottom: 40px;
+    p {
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-weight: bold;
+    }
+    div {
+        background-color: rgb(15, 15, 184);
+        padding:  20px 0;
+        transition: all 0.2s ease-in-out;
+        
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .people{
+        min-width: 600px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .people{
+        min-width: 400px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .people{
+        min-width: auto;
+    }
+}
